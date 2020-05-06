@@ -8,7 +8,7 @@
 -
 -CC=gcc
 +prefix=$(PREFIX)
-+CC=$(GCC)
++CC=$(CLANG)
  
  VERSION=1.8.0
  TREE_DEST=tree
