@@ -1,7 +1,7 @@
-diff --git a/Makefile b/Makefile
+diff --git a/Makefile b/Makefile.osx
 index 9566897..a75f849 100644
 --- a/Makefile
-+++ b/Makefile
++++ b/Makefile.osx
 @@ -16,16 +16,15 @@
  # along with this program; if not, write to the Free Software
  # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
