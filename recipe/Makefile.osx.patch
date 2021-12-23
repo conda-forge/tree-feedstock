@@ -41,7 +41,7 @@ index 9566897..a75f849 100644
 -#MANDIR=/usr/share/man
 +CFLAGS=-O2 -Wall -fomit-frame-pointer -no-cpp-precomp
 +LDFLAGS=
-+MANDIR=/usr/share/man
++MANDIR=${prefix}/share/man
  
  # Uncomment for HP/UX:
  #prefix=/opt
