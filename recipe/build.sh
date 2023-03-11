@@ -10,7 +10,7 @@ make -j${CPU_COUNT} \
     prefix=${PREFIX} \
     CC=${CC} \
     CFLAGS=$CFLAGS \
-    LDFLAGS="" \
+    LDFLAGS=$LDFLAGS \
     MANDIR=${PREFIX}/share/man/man1 \
     OBJS=$OBJS
 
