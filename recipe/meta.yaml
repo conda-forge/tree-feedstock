@@ -1,5 +1,5 @@
 {% set name = "tree" %}
-{% set version = "2.0.4" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://mama.indstate.edu/users/ice/tree/src/{{ name }}-{{ version }}.tgz
-  sha256: b0ea92197849579a3f09a50dbefc3d4708caf555d304a830e16e20b73b4ffa74
+  sha256: 0160c535bff2b0dc6a830b9944e981e3427380f63e748da96ced7071faebabf6
 
 build:
   number: 0
