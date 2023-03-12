@@ -12,3 +12,5 @@ make -j ${CPU_COUNT} \
 	MANDIR=${PREFIX}/share/man/man1 \
 	CFLAGS="$CFLAGS" \
 	LDFLAGS="$LDFLAGS"
+
+make -j ${CPU_COUNT} install
