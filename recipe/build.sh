@@ -1,5 +1,5 @@
 if [[ $(uname) == "Darwin" ]]; then
-	CFLAGS="-O2 -Wall -fomit-frame-pointer -no-cpp-precomp"
+	CFLAGS="-O3 -std=c11 -pedantic -Wall -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64"
 	LDFLAGS=
 else  # linux
 	CFLAGS="-O3 -pedantic -Wall -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64"
