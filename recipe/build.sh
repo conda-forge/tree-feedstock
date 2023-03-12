@@ -6,7 +6,7 @@ else  # linux
 	LDFLAGS="-s"
 fi
 
-make -j{$CPU_COUNT} \
+make -j ${CPU_COUNT} \
 	prefix=${PREFIX} \
 	CC=${CC} \
 	MANDIR=${PREFIX}/share/man/man1 \
