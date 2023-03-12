@@ -8,9 +8,6 @@ package:
 source:
   url: http://mama.indstate.edu/users/ice/tree/src/{{ name }}-{{ version }}.tgz
   sha256: e3339c5a194cf6b4080f15ec59faa3679f02d5a793b2147912fbfcfb4cdf2239
-  patches:
-    - Makefile.linux.patch  # [linux]
-    - Makefile.osx.patch  # [osx]
 
 build:
   number: 0
