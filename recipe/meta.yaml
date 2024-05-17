@@ -30,12 +30,13 @@ about:
   license_file: LICENSE
   summary: Tree is a recursive directory listing command
   description: |
-    Tree is a recursive directory listing command that produces a depth
+    "Tree is a recursive directory listing command that produces a depth
     indented listing of files, which is colorized ala dircolors if the
     LS_COLORS environment variable is set and output is to tty. Tree has been
     ported and reported to work under the following operating systems: Linux,
-    FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.
-  doc_url: http://mama.indstate.edu/users/ice/tree/tree.1.html
+    FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2."
+  doc_url: http://oldmanprogrammer.net/source.php?dir=projects/tree
+  dev_url: https://gitlab.com/OldManProgrammer/unix-tree
 
 extra:
   recipe-maintainers:
