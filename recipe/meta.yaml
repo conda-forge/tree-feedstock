@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: http://mama.indstate.edu/users/ice/tree/src/{{ name }}-{{ version }}.tgz
+  url: http://oldmanprogrammer.net/tar/tree/{{ name }}-{{ version }}.tgz
   sha256: d3c3d55f403af7c76556546325aa1eca90b918cbaaf6d3ab60a49d8367ab90d5
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -24,18 +24,19 @@ test:
     - tree --version
 
 about:
-  home: http://mama.indstate.edu/users/ice/tree/
+  home: http://oldmanprogrammer.net/source.php?dir=projects/tree
   license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE
   summary: Tree is a recursive directory listing command
   description: |
-    Tree is a recursive directory listing command that produces a depth
+    "Tree is a recursive directory listing command that produces a depth
     indented listing of files, which is colorized ala dircolors if the
     LS_COLORS environment variable is set and output is to tty. Tree has been
     ported and reported to work under the following operating systems: Linux,
-    FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2.
-  doc_url: http://mama.indstate.edu/users/ice/tree/tree.1.html
+    FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2."
+  doc_url: http://oldmanprogrammer.net/source.php?dir=projects/tree
+  dev_url: https://gitlab.com/OldManProgrammer/unix-tree
 
 extra:
   recipe-maintainers:
