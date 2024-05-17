@@ -1,12 +1,12 @@
-build_platform: {osx_arm64: osx_64}
+build_platform:
+  osx_arm64: osx_64
+conda_build:
+  pkg_format: '2'
 conda_forge_output_validation: true
-# Feb 28, 2021, hmaarrfk
-# We use azure since this is a very small program
-# and we are trying to avoid congestion on drone and travis
-provider: {linux_aarch64: azure, linux_ppc64le: azure}
 github:
   branch_name: main
   tooling_branch_name: main
-conda_build:
-  pkg_format: '2'
+provider:
+  linux_aarch64: azure
+  linux_ppc64le: azure
 test: native_and_emulated
