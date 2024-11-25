@@ -1,5 +1,5 @@
 {% set name = "tree" %}
-{% set version = "2.1.3" %}
+{% set version = "2.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: http://oldmanprogrammer.net/tar/tree/{{ name }}-{{ version }}.tgz
-  sha256: c24c9bfbbb3bd31a43b16898f74fd338cfcf348e914de81438ddfcf052076ff4
+  sha256: 627557b2f55bd9abc91ee7689af1ab7ff385b9058be0fb58cb123dd0a3d4288f
 
 build:
   number: 0
